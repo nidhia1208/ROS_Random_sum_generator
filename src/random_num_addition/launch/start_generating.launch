@@ -1,0 +1,11 @@
+<launch>
+
+<param name="Frequency" type="int" value="3"/>
+
+<node name="random_num_addition_gennode" pkg="random_num_addition" type="random_num_addition_gennode" output="screen" />
+
+<node name="random_num_addition_genaddnode" pkg="random_num_addition" type="random_num_addition_genaddnode" output="screen" />
+
+<node name="random_num_addition_addnode" pkg="random_num_addition" type="random_num_addition_addnode" output="screen" />
+ 
+</launch>
